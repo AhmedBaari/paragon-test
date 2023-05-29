@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Paragon Test</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👑</text></svg>">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kimeiga/bahunya/dist/bahunya.min.css">
+<link rel="stylesheet" href="/main.css">
+<link rel="stylesheet" href="test.css">
+<script defer src="readingprogress.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/chart.js@3/dist/chart.min.js"></script>
+<script defer src="test.js"></script>
+<script defer src="chart.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-BK4tRwRZdybkT3F15g6B6PnhEorlRE3k2XwyxHfB/ZUam7TevAl77k7v8v+sflN5SiohG8Y4hR3Z0JNvZvus3g==" crossorigin="anonymous" />
+
+</head>
+<body style="max-width: 40em;">
+<div id="progress-bar"></div>
+<div class="center"><h1>The Paragon Test</h1></div>
+<table id="items">
+<tr><th colspan="2">Physical Axis<br>Your body and actions
+<tr><td class="physical">Considered facially attractive<td>1
+<tr><td class="physical">Regular exercise<td>1
+<tr><td class="physical">Healthy weight for age/height<td>1
+<tr><td class="physical">Consistently healthy diet<td>1
+<tr><td class="physical">Age/height/weight are not a problem when socializing/dating<td>1
+<tr><td class="physical">No significant physical abnormalities<td>1
+<tr><td class="physical">Good hairstyle (or if shaved/bald, it suits you)<td>1
+<tr><td class="physical">Good posture<td>1
+<tr><td class="physical">Healthy body (no pain, not in treatment)<td>1
+<tr><td class="physical">Pleasant tone of voice<td>1
+<tr><td class="physical">Good hygiene habits<td>1
+<tr><td class="physical">Always presentable in public (proper clothes, tidy hair, perfume, etc)<td>1
+<tr><td class="physical">Comfortable with genitals (look, size, smell)<td>1
+<tr><td class="physical">No tics or unpleasant habits (e.g. biting nails)<td>1
+<tr><td class="physical">No addictions (e.g., cigarettes, alcohol, drugs, gambling, porn)<td>1
+<tr><th colspan="2">Mental Axis<br>Mental health and thoughts
+<tr><td class="mental">Feels happy often<td>1
+<tr><td class="mental">Feels loved by others<td>1
+<tr><td class="mental">Truly loves someone else<td>1
+<tr><td class="mental">Loves themselves<td>1
+<tr><td class="mental">No highly questionable sexual fantasies<td>1
+<tr><td class="mental">Rarely feels lonely<td>1
+<tr><td class="mental">Not sexually frustrated<td>1
+<tr><td class="mental">No significant mental disorders or autism<td>1
+<tr><td class="mental">Has a sense of direction or purpose in life<td>1
+<tr><td class="mental">Feels in control of their life<td>1
+<tr><td class="mental">Wakes up every day feeling content or motivated<td>1
+<tr><td class="mental">Has no regrets<td>1
+<tr><td class="mental">No sudden, wild mood changes<td>1
+<tr><td class="mental">Rarely anxious or depressed<td>1
+<tr><td class="mental">Healthy quantity and quality of sleep<td>1
+<tr><th colspan="2">Social Axis<br>Social circle and interactions
+<tr><td class="social">Experienced a romantic kiss<td>1
+<tr><td class="social">Experienced a romantic relationship<td>1
+<tr><td class="social">Experienced non-paid sex<td>1
+<tr><td class="social">Active social life<td>1
+<tr><td class="social">At least one close friend<td>1
+<tr><td class="social">In a healthy relationship, or not in one by choice<td>1
+<tr><td class="social">Healthy relationship with family<td>1
+<tr><td class="social">Experienced bonding with a pet<td>1
+<tr><td class="social">Comfortable going outside and interacting with strangers<td>1
+<tr><td class="social">Considered reliable in times of need<td>1
+<tr><td class="social">Pleasant personality<td>1
+<tr><td class="social">Pleasant sense of humor<td>1
+<tr><td class="social">Not being currently bullied or abused<td>1
+<tr><td class="social">Admired by others<td>1
+<tr><td class="social">Would be sincerely missed if dead<td>1
+<tr><th colspan="2">Lifestyle Axis<br>Daily life and accomplishments
+<tr><td class="lifestyle">Rarely eats alone<td>1
+<tr><td class="lifestyle">Room is tidy and presentable<td>1
+<tr><td class="lifestyle">Financially independent<td>1
+<tr><td class="lifestyle">Healthy romantic and sexual life<td>1
+<tr><td class="lifestyle">Regularly spends quality time with loved ones<td>1
+<tr><td class="lifestyle">Doesn't engage in escapism by daydreaming, gaming, etc<td>1
+<tr><td class="lifestyle">Rarely feels bored, always has ideas or projects<td>1
+<tr><td class="lifestyle">Expects life to improve in the forseeable future<td>1
+<tr><td class="lifestyle">Enjoys productive crafts like cooking, sewing, painting, etc<td>1
+<tr><td class="lifestyle">Passionate about a hobby or project<td>1
+<tr><td class="lifestyle">Regularly leaves the house (ignoring groceries, school, work)<td>1
+<tr><td class="lifestyle">Has a fulfilling job, enjoyable career, or bright future<td>1
+<tr><td class="lifestyle">Regularly tries to learn new things<td>1
+<tr><td class="lifestyle">Has a desirable life<td>1
+<tr><td class="lifestyle">Knows a skill many don't, like playing a musical instrument<td>1
+<tr><th colspan="2">Maturity Axis<br>Emotional and intellectual growth
+<tr><td class="maturity">Open-minded, inquisitive about novel ideas<td>1
+<tr><td class="maturity">Fulfills responsibilities<td>1
+<tr><td class="maturity">Bases beliefs on evidence rather than faith, tradition, or dogma<td>1
+<tr><td class="maturity">Able to listen to someone vent without interrupting or judging<td>1
+<tr><td class="maturity">Doesn't procrastinate<td>1
+<tr><td class="maturity">Admits own fault to others when making a mistake<td>1
+<tr><td class="maturity">Healthy view of people regardless of race, sex, or political views<td>1
+<tr><td class="maturity">Always keeps promises<td>1
+<tr><td class="maturity">Trustworthy with information shared in confidence<td>1
+<tr><td class="maturity">Can take care of themselves<td>1
+<tr><td class="maturity">Punctual with appointments<td>1
+<tr><td class="maturity">Tolerant of beliefs that go against their own<td>1
+<tr><td class="maturity">Resolves conflict without mocking, shouting, or violence<td>1
+<tr><td class="maturity">Empathetic, can put themselves in someone else's shoes<td>1
+<tr><td class="maturity">Listens to both sides of an argument before forming an opinion<td>1
+<tr><th colspan="2">Moral Axis<br>Morality and virtue
+<tr><td class="moral">Has an internal moral compass dictating right and wrong<td>1
+<tr><td class="moral">Cares about how their decisions affect others<td>1
+<tr><td class="moral">Makes a conscious effort not to lie<td>1
+<tr><td class="moral">Feels remorse/guilt/sadness when doing something wrong<td>1
+<tr><td class="moral">Loyal; wouldn't cheat, backstab, or abandon<td>1
+<tr><td class="moral">Respectful and polite with others<td>1
+<tr><td class="moral">Doesn't manipulate others for personal gain<td>1
+<tr><td class="moral">Engages in altruism every so often<td>1
+<tr><td class="moral">Never significantly abused or bullied others<td>1
+<tr><td class="moral">Doesn't hate others for their sex, race, or beliefs<td>1
+<tr><td class="moral">Clean conscience<td>1
+<tr><td class="moral">Wouldn't harm others if the law didn't apply for a day<td>1
+<tr><td class="moral">Has never been in a fight, or has only been forced into them<td>1
+<tr><td class="moral">Doesn't believe they are superior to others<td>1
+<tr><td class="moral">Hasn't done something others would be horrified to find out about<td>1
+<tr><th colspan="2">Luck Axis<br>Luck and circumstances
+<tr><td class="luck">Feels like a lucky person<td>1
+<tr><td class="luck">Has good genes<td>1
+<tr><td class="luck">Born into a rich family<td>1
+<tr><td class="luck">Happy childhood<td>1
+<tr><td class="luck">No serious lasting period of misfortune in life<td>1
+<tr><td class="luck">Cultivated lasting friendships<td>1
+<tr><td class="luck">Constantly presented with new opportunities<td>1
+<tr><td class="luck">Has dreams that are achievable<td>1
+<tr><td class="luck">Healthy family life<td>1
+<tr><td class="luck">Confident in own beliefs and ideals<td>1
+<tr><td class="luck">Has fond memories<td>1
+<tr><td class="luck">No major fears or worries<td>1
+<tr><td class="luck">No major enemies or grudges<td>1
+<tr><td class="luck">Positive outlook on life<td>1
+<tr><td class="luck">Every new day brings joy<td>1
+
+</table>
+
+<div class="center"><h1>Results</h1></div>
+
+<table id="final-results">
+<tr id="physical-result"><td>Physical<td>(<span id="your-total-physical">(Needs JS)</span>/15) <span id="your-outcome-physical">(Needs JS)</span>
+<tr id="mental-result"><td>Mental<td>(<span id="your-total-mental">(Needs JS)</span>/15) <span id="your-outcome-mental">(Needs JS)</span>
+<tr id="social-result"><td>Social<td>(<span id="your-total-social">(Needs JS)</span>/15) <span id="your-outcome-social">(Needs JS)</span>
+<tr id="lifestyle-result"><td>Lifestyle<td>(<span id="your-total-lifestyle">(Needs JS)</span>/15) <span id="your-outcome-lifestyle">(Needs JS)</span>
+<tr id="maturity-result"><td>Maturity<td>(<span id="your-total-maturity">(Needs JS)</span>/15) <span id="your-outcome-maturity">(Needs JS)</span>
+<tr id="moral-result"><td>Moral<td>(<span id="your-total-moral">(Needs JS)</span>/15) <span id="your-outcome-moral">(Needs JS)</span>
+<tr id="luck-result"><td>Luck<td>(<span id="your-total-luck">(Needs JS)</span>/15) <span id="your-outcome-luck">(Needs JS)</span>
+</table>
+
+
+<canvas id="resultsChart"></canvas>
+
+<div class="outcome-list">
+<h2>Outcomes</h2>
+<div class="outcome-physical">
+<div>0 - 3: Eyesore</div>
+</div>
+<div class="outcome-physical">
+<div>4 - 7: Unappealing</div>
+</div>
+<div class="outcome-physical">
+<div>8 - 11: Presentable</div>
+</div>
+<div class="outcome-physical">
+<div>12 - 15: Aesthetic</div>
+</div>
+<div class="outcome-mental">
+<div>0-3: Broken</div>
+</div>
+<div class="outcome-mental">
+<div>4-7: Damaged</div>
+</div>
+<div class="outcome-mental">
+<div>8-11: Neurotypical</div>
+</div>
+<div class="outcome-mental">
+<div>12-15: Healthy</div>
+</div>
+<div class="outcome-social">
+<div>0-3: Robot</div>
+</div>
+<div class="outcome-social">
+<div>4-7: Loner</div>
+</div>
+<div class="outcome-social">
+<div>8-11: Warm</div>
+</div>
+<div class="outcome-social">
+<div>12-15: Lovable</div>
+</div>
+<div class="outcome-lifestyle">
+<div>0-3: Outcast</div>
+</div>
+<div class="outcome-lifestyle">
+<div>4-7: Mediocre</div>
+</div>
+<div class="outcome-lifestyle">
+<div>8-11: Active</div>
+</div>
+<div class="outcome-lifestyle">
+<div>12-15: Fulfilled</div>
+</div>
+<div class="outcome-maturity">
+<div>0-3: Child-like</div>
+</div>
+<div class="outcome-maturity">
+<div>4-7: Juvenile</div>
+</div>
+<div class="outcome-maturity">
+<div>8-11: Reasonable</div>
+</div>
+<div class="outcome-maturity">
+<div>12-15: Mature</div>
+</div>
+<div class="outcome-moral">
+<div>0-3: Corrupt</div>
+</div>
+<div class="outcome-moral">
+<div>4-7: Biased</div>
+</div>
+<div class="outcome-moral">
+<div>8-11: Fair</div>
+</div>
+<div class="outcome-moral">
+<div>12-15: Wise</div>
+</div>
+<div class="outcome-luck">
+<div>0-3: Cursed</div>
+</div>
+<div class="outcome-luck">
+<div>4-7: Burdened</div>
+</div>
+<div class="outcome-luck">
+<div>8-11: Favored</div>
+</div>
+<div class="outcome-luck">
+<div>12-15: Blessed</div>
+</div>
+</div>
+
+</div>
+<a href="/">Home</a>
+</body>
+</html>
